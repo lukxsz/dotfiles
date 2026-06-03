@@ -1,0 +1,126 @@
+// Load with --load-config examples/2.jsonc
+// Note that you must replace the image path to an existing image to display it.
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/Imagens/jevil.png",
+        "height": 12,
+        "width": 30,
+        "padding": {
+            "top": 6
+        }
+    },
+    "display": {
+        "separator": " -> ",
+        "color": {
+            "title": "#4552A8"
+        }
+    },
+    "modules": [
+        "break",
+        "break",
+        "title",
+        "separator",
+        "break",
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "#4552A8",
+            "format": "{2}"
+        },
+        {
+            "type": "os",
+            "key": "├{icon}", // Just get your distro's logo off nerdfonts.com
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "kernel",
+            "key": "├",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "packages",
+            "key": "├󰏖",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "shell",
+            "key": "└",
+            "keyColor": "#4552A8"
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": " DE/WM",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "lm",
+            "key": "├󰧨",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "wmtheme",
+            "key": "├󰉼",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "icons",
+            "key": "├󰀻",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "terminal",
+            "key": "├",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "wallpaper",
+            "key": "└󰸉",
+            "keyColor": "#4552A8"
+        },
+        "break",
+        {
+            "type": "host",
+            "key": "󰌢 PC",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "cpu",
+            "key": "├󰻠",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "gpu",
+            "key": "├󰍛",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "disk",
+            "key": "├",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "memory",
+            "key": "├󰑭",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "swap",
+            "key": "├󰓡",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "display",
+            "key": "├󰍹",
+            "keyColor": "#4552A8"
+        },
+        {
+            "type": "uptime",
+            "key": "└󰅐",
+            "keyColor": "#4552A8"
+        },
+        "break"
+        
+    ]
+}
